@@ -31,7 +31,7 @@ jobs:
         node-version: [16.x]
 
     steps:
-      - name: Build app on VM
+      - name: Build app on vm
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
